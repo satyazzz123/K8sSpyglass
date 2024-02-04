@@ -33,7 +33,7 @@ var CheckCmd = &cobra.Command{
 	Run: func(cmd *cobra.Command, args []string) {
 		// Log file to store the application output
 		if logger {
-			logFile, err := os.Create("kubecollect.log")
+			logFile, err := os.Create("K8sSpyglass.log")
 			if err != nil {
 				fmt.Println("Cannot create log file: ", err)
 			}
