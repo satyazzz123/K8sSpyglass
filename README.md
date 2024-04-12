@@ -25,3 +25,6 @@ Customize logging preferences to capture essential details during the tool's exe
  ```
 ./spyk8 check --kubeconfig=path/to/your/kubeconfig --logger --namespaces=namespace1,namespace2
  ```
+
+## Demo Usage
+![image](https://github.com/satyazzz123/K8sSpyglass/assets/105061492/ad82355b-1b6f-4619-809c-6362563bd8ee)
